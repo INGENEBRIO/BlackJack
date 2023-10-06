@@ -5,7 +5,11 @@ using namespace std;
 class Jugador
 {
 public:
-	Jugador(string, int);
+	Jugador(string);
+	void ganador(int);
+	bool hacerApuesta(int);
+	string getNombre();
+	string toString();
 
 private:
 	string nombre;
